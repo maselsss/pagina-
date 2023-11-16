@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+	
+
+
+}
+html body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+body {
+	background: #303030;
+
+}
+.navbar {
+	background: #FFCD48;
+	position: sticky;
+	top: 0px;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.titulo {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 0px;
+	color: whitesmoke;
+	font-family: poppins;
+ 	
+
+
+}
+.slider-box {
+	background: #303030;
+	width: 1280px;
+	height: auto;
+	margin: 50px auto 0;
+	overflow: hidden;
+	
+
+
+
+}
+.slider-box ul{
+	background: #303030;
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 10s infinite alternate ease-in-out;
+
+
+
+}
+.slider-box li{
+	background: #303030;
+	width: 100%;
+	list-style: none;
+
+
+}
+.slider-box img{
+	background: #303030;
+	width: 100%;
+	height: 100%;
+
+
+
+}
+.content {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sau {
+	padding: 50px 0;
+	 background-image: url(fondo1.jpg);
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	text-align: center;
+
+}
+
+.antorcha {
+	display: flex;
+	justify-content: center;
+	background: #303030;
+
+}
+.antorcha h2 {
+	color: whitesmoke;
+}
+.antorcha h3{
+	color: whitesmoke;
+}
+
+
+.imagen {
+	position: relative;
+	left: 50px;
+	width: 400px;
+	background: #171717:;
+ 	border-radius: 20px #FF2D00;
+ 	margin-right: 25px;
+
+}
+@keyframes slide{
+	0% {margin-left: 0}
+	20% {margin-left: 0}
+
+	25% {margin-left: -100%}
+	40% {margin-left: -100%}
+
+	50% {margin-left: -200%}
+	70% {margin-left: -200%}
+
+	75% {margin-left: -300%}
+	100% {margin-left: -300%}
+
+
+
+
